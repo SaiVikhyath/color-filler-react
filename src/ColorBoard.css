@@ -3,17 +3,28 @@
 /* || RESET */
 * {
     border: 0;
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    font-family: Nunito;
 }
 
-/* || APP */
-.App {
+/* || Color Board */
+
+.colorBoard {
+    width: 20rem;
+    height: 20rem;
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #333;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 8rem;
+    font-size: 1.5rem;
+}
+
+.colorBoard p {
+    padding: 0.25rem;
 }
 

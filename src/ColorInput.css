@@ -1,0 +1,54 @@
+/* || RESET */
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* || Color Input */
+
+.colorInputForm {
+    margin: 1rem 0 0;
+    padding: 0 0.5rem 0.25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.colorInputForm label {
+    position: absolute;
+    left: -99999px;
+}
+
+.colorInputForm input[type='text'] {
+    min-width: 20rem;
+    flex-grow: 1; 
+    max-width: 100%;
+    min-height: 48px;
+    font-size: 1rem;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    outline: none;
+    border: 1px solid #333;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #333;
+}
+
+.colorModeToggle {
+    background-color: hsla(0, 0%, 80%, 0.5);
+    margin: 1rem 0;
+    min-height: 48px;
+    border-radius: 15px;
+    font-size: 1rem;
+    font-weight: bolder;
+    box-shadow: 2px 2px 2px #333;
+}
+
+.colorModeToggle:hover {
+    cursor: pointer;
+}
+
+.colorModeToggle:active {
+    background-color: lightgray;
+}
+
